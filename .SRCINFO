@@ -1,0 +1,15 @@
+pkgbase = python-hunspell
+	pkgdesc = Python bindings for Hunspell
+	pkgver = 0.5.5
+	pkgrel = 1
+	url = https://github.com/pyhunspell/pyhunspell
+	arch = any
+	license = GPL-3.0-or-later
+	checkdepends = python-setuptools
+	depends = hunspell
+	source = python-hunspell-0.5.5.tar.gz::https://github.com/pyhunspell/pyhunspell/archive/refs/tags/0.5.5.tar.gz
+	source = pyproject.toml
+	sha256sums = 021f2b713ebf1af972655b7f7a7669e96d8e2c59f4c984164b3fc1b7b5e2a51c
+	sha256sums = 3f9203dcf2441ea9d3ef1a6807c9209d2896011c059e96d6914dc21df7194fc2
+
+pkgname = python-hunspell
